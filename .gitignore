@@ -1,3 +1,5 @@
 /sirius-backend/target
+/sirius-backend/board_card_service/target
+/sirius-backend/board_card_service/.sqlx
 .terraform*
 output

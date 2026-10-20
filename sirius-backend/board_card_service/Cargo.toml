@@ -1,0 +1,9 @@
+[package]
+name = "board_card_service"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+chrono = "0.4.45"
+sqlx = { version = "0.8", features = ["postgres", "runtime-tokio-native-tls", "chrono"] }
+tokio = { version = "1", features = ["full"] }
